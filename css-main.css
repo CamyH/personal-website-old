@@ -45,6 +45,9 @@ footer {
     color: black;
     font-size: 2em;
 }
+.about-text{
+    text-align: center;
+}
 /*Nav-Bar*/
 nav {
     display: flex;
