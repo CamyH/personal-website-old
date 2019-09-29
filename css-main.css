@@ -47,6 +47,7 @@ footer {
 }
 .about-text{
     text-align: center;
+    font-size: 1.5em;
 }
 /*Nav-Bar*/
 nav {
@@ -175,7 +176,7 @@ ul{
     display: none;
 }
 /*Smaller Screen Adjustments*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 828px) {
     body {
         overflow-x: hidden;
     }
@@ -184,7 +185,7 @@ ul{
         right: 2px;
         height: 92vh;
         top: 8vh;
-        background-color: #5D4954;
+        background-color: #227994;
         display: flex;
         flex-direction: column;
         align-items: center;
