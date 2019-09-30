@@ -49,6 +49,33 @@ footer {
     text-align: center;
     font-size: 1.5em;
 }
+/*Loan Calculator Project*/
+.loan-calculator{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.loan-calculator-text{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+.loan-calculator-download{
+    text-align: center;
+    background-color: #227994;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.loan-calculator-download:hover{
+    background-color: royalblue;
+}
+.loan-calculator-download-div{
+    text-align: center;
+    padding-top: 20px;
+}
 /*Nav-Bar*/
 nav {
     display: flex;
@@ -176,7 +203,7 @@ ul{
     display: none;
 }
 /*Smaller Screen Adjustments*/
-@media screen and (max-width: 828px) {
+@media screen and (max-width: 768px) {
     body {
         overflow-x: hidden;
     }
@@ -185,7 +212,7 @@ ul{
         right: 2px;
         height: 92vh;
         top: 8vh;
-        background-color: #227994;
+        background-color: #5D4954;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -210,6 +237,11 @@ ul{
 @media screen and (max-width: 1024px) {
     .nav-links {
         width: 50%;
+    }
+}
+@media(min-width: 1024px){
+    .loan-calculator{
+        width: 300px;
     }
 }
 @media(min-width: 700px){
