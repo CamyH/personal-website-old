@@ -8,39 +8,49 @@
     <link rel="stylesheet" href="animate.min.css">
     <link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
 </head>    
-<body>      
-    <nav>
-        <div class="logo">
-            <h4>Cameron Hunt</h4>
+<body>
+    <div id="container">
+        <div id="main">
+            <nav>
+                <div class="logo">
+                    <h4>Cameron Hunt</h4>
+                </div>
+                <ul class="nav-links">
+                    <li>
+                        <a href="index">Home</a>
+                    </li>
+                    <li>
+                        <a href="about">About</a>
+                    </li>
+                    <li>
+                        <a href="projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+            <div class="project-page-1">
+                <p class="loan-calculator-text">This is a simple loan calculator that I made in Python using the tkinter library to create the GUI. <br>To use this calculator you simply input the interest rate, the number of payments you would like to make and the amount you are borrowing. <br>You can then calculate your monthly payment by clicking the corresponding button. <br>If you want you can then also display the remaining loan amount by clicking the button.<br>Download using the button below:</p>
+                <img class="loan-calculator" src="loan-calculator.PNG">
+                <div class="loan-calculator-download-div">
+                    <form method="get" action="calculator.py">
+                        <button class="loan-calculator-download"><i class="fa fa-download"></i> Download Here</button>
+                    </form>    
+                </div>
+            </div>
+            <div class="project-page-2">
+                <p class="personal-website-text">This is the website you are currently viewing! <br>I made this website using HTML5, CSS3 and JavaScript. I have also connected the contact form to a Google Firebase database which stores any information submitted for me to easily view. I plan to later introduce PHP to this website along with more JavaScript and some JQUERY.</p>
+                <img class="personal-website-image" src="personal-website.png">
+            </div>    
+            <script src="app.js"></script>
         </div>
-        <ul class="nav-links">
-            <li>
-                <a href="index">Home</a>
-            </li>
-            <li>
-                <a href="about">About</a>
-            </li>
-            <li>
-                <a href="projects">Projects</a>
-            </li>
-            <li>
-                <a href="contact">Contact</a>
-            </li>
-        </ul>
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
-    </nav>
-    <p class="loan-calculator-text">This is a simple loan calculator that I made in Python using the tkinter library to create the GUI. <br>To use this calculator you simply input the interest rate, the number of payments you would like to make and the amount you are borrowing. <br>You can then calculate your monthly payment by clicking the corresponding button. <br>If you want you can then also display the remaining loan amount by clicking the button.<br>Download using the button below:</p>
-    <img class="loan-calculator" src="loan-calculator.PNG">
-    <div class="loan-calculator-download-div">
-        <form method="get" action="calculator.py">
-            <button class="loan-calculator-download"><i class="fa fa-download"></i> Download Here</button>
-        </form>    
     </div>
     <footer class="footer">&copy; 2019 Cameron Hunt</footer>
-    <script src="app.js"></script>
 </body>        
 </html>
