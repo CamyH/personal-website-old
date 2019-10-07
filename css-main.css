@@ -42,7 +42,9 @@ body {
 .about-text{
     text-align: center;
     font-size: 1.5em;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .about-image-me {
     border-radius: 50%;
@@ -296,10 +298,11 @@ ul{
         padding: 0;
     }
     .about-image-me{
-        width: 156px;
-        height: 156px;
+        width: 50%;
+        height: 50%;
         margin: 0;
         padding: 0;
+        display: inline;
     }
 }
 @media screen and (max-width: 1024px) {
