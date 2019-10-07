@@ -72,6 +72,9 @@ body {
 }
 .about-me-content{
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /*Project Page*/
 .project-page-1{
