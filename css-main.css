@@ -15,6 +15,7 @@ body {
     font-family: 'Be Vietnam', sans-serif;
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 .footer{
     width: 100%;
@@ -41,24 +42,34 @@ body {
 .about-text{
     text-align: center;
     font-size: 1.5em;
-    margin-top: -100px;
-    position: absolute;
-    float: right;
-    top: 50%;
-    width: 100%;
+    
 }
 .about-image-me {
     border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    width: 256px;
-    height: 256px;
+    height: 300px;
+    width: 300px;
     opacity: 0.6;
-    position: fixed;
-    top: 30%;
-    left: 13.5%;
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.about-image-me img{
+    display: block;
+}
+.about-me-container {
+    margin: 20px 20px 0 0;  
+    overflow: auto
+}
+.about-text{
+    margin-top: 70px;
+    margin-right: 100px;
+    padding-right: 50px;
+}
+.about-image-me{
+    float: left;
+}
+.about-me-content{
+    text-align: center;
 }
 /*Project Page*/
 .project-page-1{
@@ -73,7 +84,7 @@ body {
     width: 50%;
     margin: auto;
     margin-top: 50px;
-    padding-bottom: 480px;
+    padding-bottom: 20px;
     margin-bottom: 20px;
 }
 /*Loan Calculator Project*/
@@ -104,15 +115,23 @@ body {
     padding-top: 20px;
 }
 /*Personal Website Project*/
-.personal-website-image{
+.personal-website-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
-    margin: auto;
-    position: absolute;
-    left: 25%;
+    margin-bottom: 20px;
+    bottom: 20px;
+    position: relative;
+    box-shadow: 0 0 20px 0 rgb(226, 226, 226, 226);
 }
 .personal-website-text{
     text-align: center;
     padding: 20px 0px 20px 0px;
+}
+.personal-website-header{
+    text-align: center;
+    margin-top: 60px;
 }
 /*Nav-Bar*/
 nav {
@@ -250,7 +269,7 @@ ul{
         right: 2px;
         height: 92vh;
         top: 8vh;
-        background-color: #5D4954;
+        background-color: #227994;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -271,10 +290,33 @@ ul{
     .welcome-text {
         font-size: 1em;
     }
+    .about-text{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .about-image-me{
+        width: 156px;
+        height: 156px;
+        margin: 0;
+        padding: 0;
+    }
 }
 @media screen and (max-width: 1024px) {
     .nav-links {
         width: 50%;
+    }
+    .about-text{
+        width: auto;
+    }
+    .about-image-me{
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (min-width: 1024px){
+        .about-text{
+
     }
 }
 @media(min-width: 1024px){
