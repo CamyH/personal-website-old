@@ -345,7 +345,7 @@ ul{
         text-align: center;
     }
 }
-@media screen and (min-width: 1200px){
+@media(min-width: 1200px){
     .welcome-text{
         font-size: 1.5em;
         padding-top: 150px;
