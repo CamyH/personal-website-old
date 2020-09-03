@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cameron Hunt</title>
+    <script src="https://kit.fontawesome.com/586a162324.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css-main.css">
+    <link rel="stylesheet" href="animate.min.css">
+    <link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h4><a class="cameron-hunt-link" href="index.html">Cameron Hunt</a></h4>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="index">Home</a>
+            </li>
+            <li>
+                <a href="index#learn-more">About</a>
+            </li>
+            <li>
+                <a href="projects">Projects</a>
+            </li>
+            <li>
+                <a href="contact">Contact</a>
+            </li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="header animated fadeInLeft">Contact Me</h1>
+
+        <div class="wrapper animated fadeInLeft">
+            <div class="info">
+                <!--Title-->
+                <h3>Contact information</h3>
+                <ul>
+                    <li><i class="fas fa-address-card"></i> Email: cameron@cameronhunt.tech</li>
+                    <li><i class="fab fa-linkedin"></i> Linkedin: <a class="my-linkedin-link"
+                            href="https://www.linkedin.com/in/cameron-hunt-48092b198/" target="_blank">Cameron Hunt</a>
+                    </li>
+                    <li><i class="fab fa-discord"></i> Discord: CamyHunt#6663</li>
+                </ul>
+                <p>Or submit a form and I will get back to you!</p>
+            </div>
+            <div class="contact">
+                <h3>Get in touch</h3>
+                <div class="alert">Your message has been sent</div>
+                <form id="contactForm">
+                    <p>
+                        <label>Name*</label>
+                        <input type="text" name="name" id="name" required>
+                    </p>
+                    <p>
+                        <label>Email*</label>
+                        <input type="email" name="email" id="email" required>
+                    </p>
+                    <p class="full">
+                        <label>What do you want to say?</label>
+                        <textarea name="message" rows="5" id="message"></textarea>
+                    </p>
+                    <p class="full">
+                        <!--Button-->
+                        <button type="submit">Submit</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">&copy; 2020 Cameron Hunt</footer>
+    <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-database.js"></script>
+    <script src="../JavaScript/app.js"></script>
+    <script src="../JavaScript/main.js"></script>
+</body>
+
+</html>
