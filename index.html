@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!--
+    REWORK CONTACT FORM - TRY TO USE SOMETHING OTHER THAN FIREBASE.
+-->
+
 <head>
     <title>Cameron Hunt</title>
     <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:500&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css-main.css">
     <link rel="stylesheet" href="animate.min.css">
     <link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
-    <meta name="keywords" content="Cameron, Hunt, Resume, Personal, Website, Projects, University">
-    <meta name="description" content="I am an 18 year old University Student currently studying a degree in Computing">
+    <meta name="keywords"
+        content="Cameron, Hunt, Resume, Portfolio, Personal Website, Projects, University, Cameron Hunt, Student">
+    <meta name="description" content="19 year old University Student currently studying a degree in Computing">
     <meta name="author" content="Cameron Hunt">
-</head>    
+</head>
+
 <body>
     <div class="area">
         <div id="container">
             <div id="main">
                 <nav>
                     <div class="logo">
-                        <h4>Cameron Hunt</h4>
+                        <h4><a class="cameron-hunt-link" href="index.html">Cameron Hunt</a></h4>
                     </div>
                     <ul class="nav-links">
                         <li>
                             <a href="index.html">Home</a>
                         </li>
                         <li>
-                            <a href="about.html">About</a>
+                            <a href="#learn-more">About</a>
                         </li>
                         <li>
                             <a href="projects.html">Projects</a>
@@ -38,25 +45,52 @@
                         <div class="line3"></div>
                     </div>
                 </nav>
-                <p class="welcome-text animated fadeIn">Welcome to my website. <br /> I am very passionate about Computing and have enjoyed studying it at High School.<br> I now look forward to completing my degree in the field and using my skills in the workforce.<br>Feel free to look around! </p>
-                <button class="home-button animated fadeIn" type="submit"><a href="about.html">About me!</a></button>
+                <section class="section-intro">
+                    <!--Text-->
+                    <p class="welcome-text animated fadeIn">Welcome to my website. <br /> I am very passionate about
+                        Computing and have enjoyed studying it at High School.<br> I now look forward to completing my
+                        degree in the field and using my skills in the workforce.<br>Feel free to look around! </p>
+                    <!--Button-->
+                    <button class="learn-more-button animated fadeIn" type="submit"><a href="#learn-more">Learn
+                            more</a></button>
+                </section>
+                <!--BUG - DON'T THINK THIS IS A BUG ANYMORE - LEAVING THIS JUST IN CASE - PROJECT AND CONTACT BUTTONS GO THROUGH FOOTER ON MOBILE SCREEN SIZE-->
+                <section class="section-about" id="learn-more">
+                    <div class="about-me-container">
+                        <!--Text-->
+                        <h3 class="about-me-content animated fadeInLeft">About me</h3>
+                        <p class="about-text animated fadeInLeft">Hello, I'm Cameron - A second year student studying
+                            for
+                            a degree in Computing at Edinburgh Napier University. <br>Currently I am working on
+                            improving my programming ability in languages such as Java, Python, C++, C# and
+                            JavaScript.<br>My other interests include playing Tennis with friends, watching Formula 1
+                            and
+                            reading books, mainly
+                            of the detective fiction genre.</p>
+                        <!--Image-->
+                        <!--<img class="about-me-image animated animated fadeInLeft" src="../Images/me2.jpg">-->
+                        <!--Buttons-->
+                        <button class="projects-button" type="submit"><a href="projects.html">Projects</a></button>
+                        <button class="contact-button" type="submit"><a href="contact.html">Contact</a></button>
+                        <!--Logos-->
+                        <!--GitHub Logo-->
+                        <div class="logos">
+                            <a href="https://github.com/CamyH" target="_blank">
+                                <img class="github-logo animated fadeInLeft" src="../Images/github-logo.png" />
+                            </a>
+                            <!--Linkedin Logo-->
+                            <a href="https://www.linkedin.com/in/cameron-hunt-48092b198/" target="_blank">
+                                <img class="linkedin-logo animated fadeInLeft" src="../Images/linkedin-logo.png"
+                                    height="84px" width="84px" />
+                            </a>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
-        <ul class="circles">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </div >
-    <script src="app.js"></script>
-    <script src="main.js"></script>
-    <footer class="footer">&copy; 2020 Cameron Hunt</footer>
-</body>        
+        <script src="app.js"></script>
+        <script src="main.js"></script>
+        <footer class="footer">&copy; 2020 Cameron Hunt</footer>
+</body>
+
 </html>
