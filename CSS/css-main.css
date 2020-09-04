@@ -519,6 +519,10 @@ a:hover {
   .welcome-text {
     top: 38%;
   }
+
+  .learn-more-button {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 828px) {
