@@ -499,6 +499,28 @@ a:hover {
 }
 
 /*Smaller Screen Adjustments*/
+@media screen and (max-width: 905px) {
+  .welcome-text {
+    top: 40%;
+  }
+
+  .learn-more-button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .welcome-text {
+    top: 38%;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .welcome-text {
+    top: 38%;
+  }
+}
+
 @media screen and (max-width: 828px) {
   body {
     overflow-x: hidden;
@@ -533,6 +555,10 @@ a:hover {
     transform: translateX(0%);
   }
 
+  .learn-more-button {
+    display: none;
+  }
+
   .welcome-text,
   .about-text {
     font-size: 1em;
@@ -543,10 +569,6 @@ a:hover {
     transform: translate(-50%, 275%);
     font-size: 12px;
     padding: 8px 16px;
-  }
-  
-  .learn-more-button {
-    display: none;
   }
 
   .about-text {
