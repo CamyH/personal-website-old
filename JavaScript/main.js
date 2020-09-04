@@ -1,4 +1,4 @@
-// Your web app's Firebase configuration
+// Firebase configuration
 var firebaseConfig = {
     apiKey: "AIzaSyBB3lVl7zPy57ClBpSXkEDpec2Ru3F0RXc",
     authDomain: "contactform-b0fa6.firebaseapp.com",
@@ -57,8 +57,7 @@ function saveMessage(name, email, message){
         message:message
     });
 }
-////////////////////////// PARTICLE ENGINE ////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////////////////////////
+// Particle Engine - Curently not used //
 
 var ParticleEngine = (function() {
 	'use strict';
@@ -214,8 +213,7 @@ var ParticleEngine = (function() {
 }());
 
 
-////////////////////////UTILS//////////////////////////////////////
-//////////////////////////////////////////////////////////////////
+// UTILS //
 
 function range(min, max)
 {
@@ -254,8 +252,7 @@ function weightedRange(to, from, decimalPlaces, weightedRange, weightStrength)
    return(ret);
 }
 
-///////////////// RUN CODE //////////////////////////
-//////////////////////////////////////////////////////
+// RUN CODE //
 
 var particles
 (function(){
