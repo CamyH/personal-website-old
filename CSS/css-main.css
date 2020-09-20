@@ -34,8 +34,6 @@ body {
 
 .footer {
   width: 100%;
-  /*background-color: #227994;*/
-  /*background-color: #191d39;*/
   border-top: 3px solid rgb(226, 226, 226);
   color: rgb(225, 226, 226);
   display: flex;
@@ -94,7 +92,6 @@ body {
 }
 
 .learn-more-button:hover {
-  /*background-color: #227994;*/
   background-color: #ff1a00;
   color: white;
 }
@@ -154,7 +151,6 @@ body {
 }
 
 .projects-button {
-  /*background-color: #0e9bb0;*/
   background-color: #b42f3a;
   color: black;
   border: 2px solid aliceblue;
@@ -174,7 +170,6 @@ body {
 }
 
 .contact-button {
-  /*background-color: #0e9bb0;*/
   background-color: #b42f3a;
   color: black;
   border: 2px solid aliceblue;
@@ -199,6 +194,7 @@ body {
   margin: auto;
   margin-top: 50px;
   padding-bottom: 20px;
+  margin-bottom: 20px;
   background-color: white;
 }
 
@@ -220,9 +216,9 @@ body {
   background-color: white;
 }
 
-/*Loan Calculator Project*/
 .personal-website-header,
-.colour-code-finder-header {
+.colour-code-finder-header,
+.f2-league-program-header {
   color: white;
 }
 
@@ -233,58 +229,15 @@ body {
   color: black;
 }
 
-.loan-calculator {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+/*F2 League Program*/
+.f2-league-program-header {
+  text-align: center;
+  margin-top: 0px;
 }
 
-.loan-calculator-text {
+.f2-league-program-text {
   text-align: center;
   padding: 20px 0px 20px 0px;
-}
-
-.loan-calculator-download {
-  text-align: center;
-  background-color: #227994;
-  border: none;
-  color: white;
-  padding: 12px 30px;
-  cursor: pointer;
-  font-size: 20px;
-}
-
-.view-code-button1 {
-  text-align: center;
-  background-color: #b42f3a;
-  border: none;
-  color: white;
-  padding: 20.5px 80px;
-  cursor: pointer;
-  font-size: 20px;
-  margin-top: 10px;
-}
-
-/*GITHUB Logo currently static - make it responsive*/
-.view-code-github {
-  width: 64px;
-  height: 64px;
-  /*background-color: #b42f3a;*/
-  cursor: pointer;
-  margin-top: 10px;
-  position: absolute;
-  right: 537px;
-  /*visibility: hidden;*/
-}
-
-.loan-calculator-download:hover {
-  background-color: royalblue;
-}
-
-.loan-calculator-download-div {
-  text-align: center;
-  padding-top: 20px;
 }
 
 /*Personal Website Project*/
@@ -326,16 +279,6 @@ body {
 .colour-code-finder-text {
   text-align: center;
   padding: 20px 0px 20px 0px;
-}
-
-.colour-code-finder-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin-bottom: 20px;
-  bottom: 20px;
-  position: relative;
 }
 
 /*Nav-Bar*/
