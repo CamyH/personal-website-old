@@ -69,7 +69,7 @@ body {
   z-index: 0;
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -216,6 +216,24 @@ body {
   background-color: white;
 }
 
+.project-page-4 {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.project-page-5 {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
 .personal-website-header,
 .colour-code-finder-header,
 .f2-league-program-header {
@@ -279,6 +297,16 @@ body {
 .colour-code-finder-text {
   text-align: center;
   padding: 20px 0px 20px 0px;
+}
+
+/*Track Trace System Prototype */
+.track-trace-text {
+  text-align: center;
+  padding: 20px 30px 20px 30px;
+}
+li {
+  display: flex;
+  justify-content: center;
 }
 
 /*Nav-Bar*/
@@ -443,32 +471,12 @@ a:hover {
 
 /*Smaller Screen Adjustments*/
 @media screen and (max-width: 905px) {
-  .welcome-text {
-    top: 40%;
-  }
-
   .learn-more-button {
     display: none;
   }
 }
 
-@media screen and (max-width: 960px) {
-  .welcome-text {
-    top: 38%;
-  }
-}
-
-@media screen and (max-width: 996px) {
-  .welcome-text {
-    top: 38%;
-  }
-
-  .learn-more-button {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 828px) {
+@media screen and (max-width: 1150px) {
   body {
     overflow-x: hidden;
   }
@@ -478,7 +486,6 @@ a:hover {
     right: 2px;
     height: 92vh;
     top: 8vh;
-    /*CHANGE COLOUR TO SOMETHING BETTER*/
     background-color: #27293a;
     display: flex;
     flex-direction: column;
@@ -553,7 +560,7 @@ a:hover {
   }
 }
 
-@media screen and (min-width: 1024px) {}
+@media screen and (max-width: 1024px) {}
 
 @media (min-width: 1024px) {
   .loan-calculator {
