@@ -384,7 +384,7 @@ ul {
   padding: 0;
 }
 
-.wrapper>* {
+.wrapper > * {
   padding: 1em;
 }
 
@@ -560,7 +560,8 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
+}
 
 @media (min-width: 1024px) {
   .loan-calculator {
@@ -574,7 +575,7 @@ a:hover {
     grid-template-columns: 1fr 2fr;
   }
 
-  .wrapper>* {
+  .wrapper > * {
     padding: 2em;
   }
 
