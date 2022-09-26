@@ -2,4 +2,4 @@
 
 ## This project is now archived
 
-### Updated repository: https://github.com/CamyH/personal-website-react
+### Updated repository: https://github.com/CamyH/personal-website
